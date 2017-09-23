@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am associate professor of humanities computing at University of Southern Denmark. As a humanities researcher I have specialized in applications of quantitative methods and computational tools in analysis, interpretation and storage of cultural data. I have participated in a range of collaborative and interdisciplinary research projects involving researchers from the humanities, social sciences, health science, and natural sciences. My research covers two areas of interest of which one is more recent (automated text analysis) and the other (modeling of cultural behavior) has followed me during my entire academic career. Both interests explore the cultural information space in new and innovative ways by combining cultural data and humanities theories with statistics, computer algorithms, and visualization.
+As a humanities researcher I have specialized in applications of quantitative methods and computational tools in analysis, interpretation and storage of cultural data. I have participated in a range of collaborative and interdisciplinary research projects involving researchers from the humanities, social sciences, health science, and natural sciences. My research covers two areas of interest of which one is more recent (automated text analysis) and the other (modeling of cultural behavior) has followed me during my entire academic career. Both interests explore the cultural information space in new and innovative ways by combining cultural data and humanities theories with statistics, computer algorithms, and visualization.
 
 
 Current Projects

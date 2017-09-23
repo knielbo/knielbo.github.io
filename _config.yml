@@ -78,9 +78,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Sidebar Name"
+  name             : "I Am A"
   avatar           : "profile.png"
-  bio              : "Your biography for the left-hand sidebar"
+  bio              : "Associate professor of humanities computing at University of Southern Denmark, where I run an eScience unit for the humanities (eHumanities?)"
   location         : "Copenhagen"
   employer         : "University of Southern Denmark"
   googlescholar    : "http://yourfullgooglescholarurl.com"

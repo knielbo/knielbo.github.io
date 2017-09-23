@@ -37,4 +37,4 @@ processing.
 
 [Download paper here](http://knielbo.github.io/files/resource_allocation.pdf)
 
-Recommended citation: 'Nielbo, K.L. & Sørensen, J. (2016). &quot;Attentional resource allocation and cultural modulation in a computational model of ritualized behavior.&quot; <i>Religion, Brain and Behavior</i>. 6(4).'
+Recommended citation: Nielbo, K.L. & Sørensen, J. (2016). &quot;Attentional resource allocation and cultural modulation in a computational model of ritualized behavior.&quot; <i>Religion, Brain and Behavior</i>. 6(4).
