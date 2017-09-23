@@ -16,6 +16,6 @@ Current Projects
 Currently I am working on a comparative study of *innovation*, *creativity* and *motivational drivers* in Danish textual cultural heritage, with a particular focus on N.F.S Grundtvig (1783-1872), H.C. Andersen (1805-1875) and S.A. Kierkegaard (1813-1855).
 
 
-datakuben
+|||||datakuben|||
 ======
 ...
