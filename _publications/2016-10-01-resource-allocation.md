@@ -5,7 +5,7 @@ permalink: /publication/2016-10-01-resource-allocation
 excerpt: 'Computer simulation of human action perception under cultural influence'
 date: 2009-10-01
 venue: 'Religion, Brain and Behavior'
-paperurl: 'http://knielbo.github.io/files/resource_allocation.pdf'
+#paperurl: 'http://knielbo.github.io/files/resource_allocation.pdf'
 citation: 'Nielbo, K.L. & Sørensen, J. (2016). &quot;Attentional resource allocation and cultural modulation in a computational model of ritualized behavior.&quot; <i>Religion, Brain and Behavior</i>. 6(4).'
 ---
 How do cultural and religious rituals influence human perception and
