@@ -81,7 +81,7 @@ author:
   name             : "Your Sidebar Name"
   avatar           : "profile.png"
   bio              : "Your biography for the left-hand sidebar"
-  location         : "Location"
+  location         : "Copenhagen"
   employer         : "University of Southern Denmark"
   googlescholar    : "http://yourfullgooglescholarurl.com"
   email            : "knielbo@sdu.dk"
@@ -97,14 +97,14 @@ author:
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         :
+  linkedin         : "https://dk.linkedin.com/in/kristoffer-nielbo-9690637b"
   orcid            : "http://orcid.org/0000-0002-5116-5070"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "replacethistwitterhandle"
+  twitter          : "@Nielbo23"
   vine             :
   weibo            :
   xing             :
