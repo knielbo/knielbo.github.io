@@ -1,7 +1,7 @@
 ---
 title: "Attentional resource allocation and cultural modulation in a computational model of ritualized behavior"
 collection: publications
-permalink: http://dx.doi.org/10.1080/2153599X.2015.1087420
+permalink: /publication/2016-10-01-resource-allocation
 excerpt: 'Computer simulation of human action perception under cultural influence'
 date: 2009-10-01
 venue: 'Religion, Brain and Behavior'
@@ -37,4 +37,4 @@ processing.
 
 [Download paper here](http://academicpages.github.io/files/resource_allocation.pdf)
 
-Recommended citation: Nielbo, K.L. & Sørensen, J. (2016). &quot;Attentional resource allocation and cultural modulation in a computational model of ritualized behavior.&quot; <i>Religion, Brain and Behavior</i>. 6(4).
+Recommended citation: 'Nielbo, K.L. & Sørensen, J. (2016). &quot;Attentional resource allocation and cultural modulation in a computational model of ritualized behavior.&quot; <i>Religion, Brain and Behavior</i>. 6(4).'
