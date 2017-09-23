@@ -79,7 +79,7 @@ analytics:
 # Site Author
 author:
   name             : "Your Sidebar Name"
-  avatar           : "profile.png"
+  avatar           : "can.png"
   bio              : "Your biography for the left-hand sidebar"
   location         : "Location"
   employer         : "University of Southern Denmark"
@@ -97,7 +97,7 @@ author:
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         : ""
+  linkedin         :
   orcid            : "http://orcid.org/0000-0002-5116-5070"
   pinterest        :
   soundcloud       :
