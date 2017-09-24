@@ -78,9 +78,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "i_am_a"
+  name             : "Kristoffer L. Nielbo"
   avatar           : "profile.png"
-  bio              : "(-n) associate professor of humanities computing at University of Southern Denmark, where I run an eScience unit for the humanities (eHumanities?)"
+  bio              : "Is associate professor of humanities computing at University of Southern Denmark, where he runs an eScience unit (datakuben) for the humanities (~eHumanities)"
   location         : "Copenhagen"
   employer         : "University of Southern Denmark"
   googlescholar    : "http://yourfullgooglescholarurl.com"
