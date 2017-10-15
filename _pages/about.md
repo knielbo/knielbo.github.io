@@ -22,4 +22,6 @@ University of Southern Denmark hosts Denmark's largest supercomputer [Abacus 2.0
 
 Calculus of Culture @ Aarhus University
 ======
+Calculus of Culture is a interdisciplinary research network (members from humanities, CS and mathematics) that has been meeting twice during 2017 (Guangxi University/China & Aarhus University/Denmark) in order to develop methods and tools for data-driven research of culture. We just finished our meeting at Aarhus University (core participants in picture).
+
 ![useful image]({{ site.url }}/images/theCalculus.JPG)
