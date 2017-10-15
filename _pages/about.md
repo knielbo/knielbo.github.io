@@ -20,6 +20,4 @@ Currently I am working on a comparative study of *innovation*, *creativity* and 
 ======
 University of Southern Denmark hosts Denmark's largest supercomputer [Abacus 2.0](https://abacus.deic.dk/). In order to facilitate use of the Abacus 2.0 in the humanities and computationaly empower our domain experts, we have established *datakuben*, an eScience unit for the humanities and arts.
 
-![alt text][logo]
-
-[logo]: https://github.com/knielbo/knielbo.github.io/tree/master/images/theCalculus.png "Logo Title Text 2"
+![](images/ theCalculus.JPG?raw=true)
