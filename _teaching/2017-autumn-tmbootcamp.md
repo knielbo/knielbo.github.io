@@ -1,5 +1,5 @@
 ---
-title: "Text Mining Bootcamp"
+title: "Text-Mining Bootcamp"
 collection: teaching
 type: "Postgraduate course"
 permalink: /teaching/2017-autumn-tmbootcamp
