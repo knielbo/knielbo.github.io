@@ -49,7 +49,7 @@ Professional Development
 
 Skills
 ======
-* Markup (LATEX, Markdown)
+* Markup (LaTeX, Markdown)
 * Script (MATLAB, Python, R, basic Shell Scripting)
 * Tools (Atom, Git, RapidMiner)
 
