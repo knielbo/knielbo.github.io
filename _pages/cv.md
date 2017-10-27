@@ -59,7 +59,7 @@ Grants and Awards
 * 2016-19: Danish Agency for Science and Higher Education: Unearned Wealth - A Literary History of Inheritance (1600-2015), 5,870,000 DKK, (co-applicant).
 * 2016: Institute of Pure and Applied Mathematics, Fellowship, University of California, Los Angeles.
 * 2015: Aarhus University Strategical Funding for Education, DKK 30,000, (main applicant).
-* 2015: Aarhus University Research Foundation (AUFF): Digital Text Laboratory|DTL, DKK 60,000, (main applicant).
+* 2015: Aarhus University Research Foundation (AUFF): Digital Text Laboratory, DKK 60,000, (main applicant).
 * 2015-17: The Andrew Mellon Foundation: Mapping Literary Influences, DKK 270,000, (co-applicant).
 * 2014-15: Interacting Minds Centre, Seed Funding: Timing is of essence, DKK 65,000, (main applicant).
 * 2012-15: The Evolution of Religion and Morality: Social Sciences and Humanities Research Council of Canada (SSHRC), DKK 18,400,000, (supported by).
