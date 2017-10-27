@@ -18,6 +18,7 @@ Education
 Work experience
 ======
 * University
+    * 2017-: Associate Professor of Humanities Computing, Dept. of History, University of Southern Denmark
     * 2015-17: Associate Professor, School of Culture & Society, Aarhus University
     * 2012-15: Postdoc, joint position between IMC, Aarhus University, and CERC, University of British Columbia
 * Administration
