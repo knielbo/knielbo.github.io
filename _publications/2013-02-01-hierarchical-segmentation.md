@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/2013-02-01-hierarchical-segmentation
 excerpt: 'Event segmentation of cultural behaviors'
 date: 2013-02-01
-venue: 'Journal of Cognition and Culture'
+venue: 'Journal for the Cognitive Science of Religion'
 #paperurl: 'http://knielbo.github.io/files/resource_allocation.pdf'
 citation: 'Nielbo, K.L., Schjoedt, U. & Sørensen, J. (2013). &quot;Hierarchical Organization of Segmentation in Non-Functional Action Sequences.&quot; <i>Journal for the Cognitive Science of Religion</i>. 1(1).'
 ---
