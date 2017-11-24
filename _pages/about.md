@@ -25,3 +25,10 @@ Calculus of Culture @ Aarhus University
 Calculus of Culture is a interdisciplinary research network (members from humanities, CS and mathematics) that has been meeting twice during 2017 (Guangxi University/China & Aarhus University/Denmark) in order to develop methods and tools for data-driven research of culture. We just finished our meeting at Aarhus University (core participants in picture).
 
 ![useful image]({{ site.url }}/images/theCalculus_gs.JPG)
+
+Scandinavian Literature Hack @ University of California Los Angeles
+======
+November 13-14, 2017 I participated in a hackfest event working on Scandinavian literature at UCLA (!!!) funded by the Mellon Foundation. After a sleepless night, we
+presented a study of optimality criteria for fairy tales (and other fiction) tested on 8000+ Danish documents. H.C Andersen turns out to be the paradigm of literary optimality.
+
+![useful image]({{ site.url }}/images/fairy_tales.jpg)
