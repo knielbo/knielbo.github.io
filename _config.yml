@@ -27,7 +27,7 @@ comments:
   facebook:
     appid                :
     num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
+    colorscheme          : "dark" # "light" (default), "dark"
 staticman:
   allowedFields          : ['name', 'email', 'url', 'message']
   branch                 : "gh-pages" # "master", "gh-pages"
@@ -55,7 +55,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter
+  username               : nielbo23 # &twitter
 facebook:
   username               :
   app_id                 :
@@ -80,7 +80,7 @@ analytics:
 author:
   name             : "Kristoffer L. Nielbo"
   avatar           : "profile.jpg"
-  bio              : "Is associate professor of humanities computing at University of Southern Denmark, where he runs an eScience unit (datakuben) for the humanities (~eHumanities)"
+  bio              : "Is associate professor of humanities computing at University of Southern Denmark, where he runs an eScience unit (datakube) for the humanities (~eHumanities)"
   location         : "Copenhagen"
   employer         : "University of Southern Denmark"
   googlescholar    : "http://yourfullgooglescholarurl.com"
@@ -97,7 +97,7 @@ author:
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         : "https://dk.linkedin.com/in/kristoffer-nielbo-9690637b"
+  linkedin         : "https://www.linkedin.com/in/kristoffer-nielbo-9690637b"
   orcid            : "http://orcid.org/0000-0002-5116-5070"
   pinterest        :
   soundcloud       :
