@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Kristoffer L. Nielbo / datakuben"
+title                    : "Kristoffer L. Nielbo / datakube"
 title_separator          : "-"
 name                     : &name "Your Name"
 description              : &description "personal description"
