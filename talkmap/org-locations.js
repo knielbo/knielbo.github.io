@@ -1,8 +1,8 @@
 var addressPoints = [
   [
-    "Sverige",
-    59.6749712,
-    14.5208584
+    "V\u00e4xj\u00f6, Sverige",
+    56.8787183,
+    14.8094385
   ],
   [
     "Kolding",
