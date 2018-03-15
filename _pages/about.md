@@ -32,3 +32,9 @@ November 13-14, 2017 I participated in a hackfest event working on Scandinavian 
 presented a study of optimality criteria for fairy tales (and other fiction) tested on 8000+ Danish documents. H.C Andersen turns out to be the paradigm of literary optimality.
 
 ![useful image]({{ site.url }}/images/fairy_tales.jpg)
+
+Culture Analytics Reunion @ Institute of Pure and Applied Mathematics (UCLA)
+======
+December 11-15, 2017, the Culture Analytics group from Institute of Pure and Applied Mathematics had their first reuion at the Lake Arrowhead retreat in California. Take-home message: *Math Changes Everything*
+
+![useful image]({{ site.url }}/images/ipam_reunion_2017.jpg)
