@@ -1,7 +1,7 @@
 ---
-title: "Hierarchical Organization of Segmentation in Non-Functional Action Sequences"
+title: "Spontaneous processing of functional and nonfunctional action sequences"
 collection: publications
-permalink: /publication/2013-02-01-hierarchical-segmentation
+permalink: /publication/2013-02-01-Spontaneous-processing
 excerpt: 'Event segmentation of cultural behaviors'
 date: 2011-02-01
 venue: 'Journal for the Cognitive Science of Religion'
