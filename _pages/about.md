@@ -13,8 +13,11 @@ As a humanities researcher I have specialized in applications of quantitative me
 
 Current Projects
 ======
-Currently I am working on a comparative study of *innovation*, *creativity* and *motivational drivers* in Danish textual cultural heritage, with a particular focus on N.F.S Grundtvig (1783-1872), H.C. Andersen (1805-1875) and S.A. Kierkegaard (1813-1855).
+Currently I am working on a comparative study of *innovation*, *creativity* and *motivational drivers* in Danish textual cultural heritage, with a particular focus on N.F.S Grundtvig (1783-1872), H.C. Andersen (1805-1875) and S.A. Kierkegaard (1813-1855) (see, [*A Curious Case of Entropic Decay*](https://doi.org/10.1093/llc/fqy054)).
 
+With my Dutch colleague Melvin Wevers, I work on a large-scale automated text analysis project about *disruptions* and *persistence* in Dutch newspapers topicality space. The project is a continuation of our previous project with Jianbo Gao *Tracking the Consumption Junction:Temporal Dependencies in Dutch Newspaper Articles and Advertisements* (still in review!).
+
+Jianbo Gao, Mads Rosendahl Thomsen and me have recently started a project on the fractal properties of narratives, which has led us to propose a set of theoretical propositions on the necessary properties of optimal narrative structure (*Dynamic evolution of sentiments in Never Let Me Go: Insights from multifractal theory and its implications for literary analysis*,  currently in review).
 
 |||||datakube|||
 ======
