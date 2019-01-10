@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Kristoffer L. Nielbo / datakube"
+title                    : "Kristoffer L. Nielbo"
 title_separator          : "-"
 name                     : &name "Your Name"
 description              : &description "personal description"
@@ -71,7 +71,7 @@ social:
 
 # Analytics
 analytics:
-  provider               :  "google-universal" # false (default), "google", "google-universal", "custom"
+  provider               :  "false" # false (default), "google", "google-universal", "custom"
   google:
     tracking_id          :
 
@@ -83,8 +83,8 @@ author:
   bio              : "Is associate professor of humanities computing at University of Southern Denmark, where he runs an eScience unit (datakube) for the humanities (~eHumanities)"
   location         : "Copenhagen"
   employer         : "University of Southern Denmark"
-  googlescholar    : "http://yourfullgooglescholarurl.com"
-  email            : "knielbo@sdu.dk"
+  googlescholar    : "https://scholar.google.dk/citations?user=PRrHPIcAAAAJ&hl=eng"
+  email            : "knielbo(AT)sdu(DOT)dk"
   uri              :
   bitbucket        :
   codepen          :
