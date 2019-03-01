@@ -23,9 +23,9 @@ Mixed Arts with CodeRefinery & Software Carpentry
 ======
 Join our tutorial [Mixed Arts with CodeRefinery & Software Carpentry](https://kln-courses.github.io/mixed-arts/) on programming with Python, automated version control and social coding at Digital Humanities in the Nordic countries 4th conference. The tutorial will take place at University of Copenhagen’s South Campus on March 5, 2019.
 
-|||||datakube|||
+Centre for Humanities Computing Aarhus
 ======
-University of Southern Denmark hosts Denmark's largest supercomputer [Abacus 2.0](https://abacus.deic.dk/). In order to facilitate use of the Abacus 2.0 in the humanities and computationally empower our domain experts, we have established *datakube*, an eScience unit for the humanities and arts.
+As of February 1, 2019, Aarhus University has established Centre for Humanities Computing Aarhus (CHCAA). The centre forms the spearhead of computational literacy for researchers in the Humanities.  We adopt, research and develop tomorrow's data-driven humanities methodologies, tools, and synergies. Our aim is to empower researchers with relevant, efficient, and usable resources and mindsets
 
 Calculus of Culture @ Aarhus University
 ======

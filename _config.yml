@@ -80,11 +80,11 @@ analytics:
 author:
   name             : "Kristoffer L. Nielbo"
   avatar           : "profile.jpg"
-  bio              : "Is associate professor of humanities computing at University of Southern Denmark, where he runs an eScience unit (datakube) for the humanities (~eHumanities)"
+  bio              : "Is associate professor of humanities computing at Aarhus University and director of Centre for Humanities Computing Aarhus"
   location         : "Copenhagen"
-  employer         : "University of Southern Denmark"
+  employer         : "Aarhus University"
   googlescholar    : "https://scholar.google.dk/citations?user=PRrHPIcAAAAJ&hl=eng"
-  email            : "knielbo@sdu.dk"
+  email            : "kln@au.dk"
   uri              :
   bitbucket        :
   codepen          :
