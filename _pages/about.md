@@ -25,7 +25,7 @@ Join our tutorial [Mixed Arts with CodeRefinery & Software Carpentry](https://kl
 
 Centre for Humanities Computing Aarhus
 ======
-As of February 1, 2019, Aarhus University has established Centre for Humanities Computing Aarhus (CHCAA). The centre forms the spearhead of computational literacy for researchers in the Humanities.  We adopt, research and develop tomorrow's data-driven humanities methodologies, tools, and synergies. Our aim is to empower researchers with relevant, efficient, and usable resources and mindsets
+As of February 1, 2019, Aarhus University has established Centre for Humanities Computing Aarhus (CHCAA). The centre forms the spearhead of computational literacy for researchers in the Humanities.  We adopt, research and develop tomorrow's data-driven humanities methodologies, tools, and synergies. Our aim is to empower researchers with relevant, efficient, and usable resources and mindsets. We acquire, research, and develop state-of-the-art technologies, methodologies, and best practices for research on digital data in the Humanities. The CHCAA maintains a working pipeline to produce the best learning material for you to acquire relevant cutting edge technologies in a humane format.
 
 Calculus of Culture @ Aarhus University
 ======
