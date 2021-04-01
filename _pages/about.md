@@ -14,6 +14,8 @@ I'm a researcher and infrastructure manager at Aarhus University Denmark. As a r
 Current Projects
 ======
 
+Together with my colleagues [Rebekah Baglini](https://rbkh.net/), [Peter B. Vahlstrup](https://pure.au.dk/portal/da/persons/peter-bjerregaard-vahlstrup(63997fd6-cf3c-4d7e-895a-7cfbd145f22e).html) and PhD student [Kenneth Enevoldsen](https://pure.au.dk/portal/da/persons/kenneth-christian-enevoldsen(c52b8fd4-bd44-4c8e-997b-648715fd0d0d).html), I am currently developing an algorithm for change detection in written media content. The project is part of the [HOPE](https://hope-project.dk/#/) How Democracies Cope with COVID19 project that is funded by the [Carlsberg Foundation](https://www.carlsbergfondet.dk/en/News/News-from-the-Foundation/News/25-million-DKK-to-social-behavioral-research-during-the-Covid19-epidemic). (see, [News Information Decoupling](https://arxiv.org/pdf/2101.02956.pdf) and [When No News Is Bad News](https://arxiv.org/pdf/2102.06505.pdf)].
+
 With my colleague [Katrine F. Baunvig](https://pure.au.dk/portal/da/persons/katrine-froekjaer-baunvig(f1e19ea4-6952-423e-930a-2bd93623a9d4).html) I am working on a comparative study of *innovation*, *creativity* and *motivational drivers* in Danish textual cultural heritage, with a particular focus on N.F.S Grundtvig (1783-1872), H.C. Andersen (1805-1875) and S.A. Kierkegaard (1813-1855) (see, [*A Curious Case of Entropic Decay*](https://doi.org/10.1093/llc/fqy054)).
 
 Previous Projects
