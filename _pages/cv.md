@@ -17,20 +17,23 @@ Education
 
 Work experience
 ======
-__Research__  
-    * 2019-    : Associate Professor of Humanities Computing, Aarhus University
-    * 2017-2019: Associate Professor of Humanities Computing, Dept. of History, University of Southern Denmark
-    * 2015-2017: Associate Professor, School of Culture & Society, Aarhus University
-    * 2012-2015: Postdoc, joint position between IMC, Aarhus University, and CERC, University of British Columbia
+__Research__
+
+* 2019-    : Associate Professor of Humanities Computing, Aarhus University
+* 2017-2019: Associate Professor of Humanities Computing, Dept. of History, University of Southern Denmark
+* 2015-2017: Associate Professor, School of Culture & Society, Aarhus University
+* 2012-2015: Postdoc, joint position between IMC, Aarhus University, and CERC, University of British Columbia
+
 __Administration__
-    * 2019-    : Director of Center for Humanities Computing Aarhus
-    * 2017-    : Steering Group member in CodeRrfinery
-    * 2017-2019: University of Southern Denmarks eScience Committee (@ Abacus 2.0)
-    * 2016-2019: Advisory Board for the Simulating Religion Project
-    * 2016-2017: AU Arts’ representative in AU eScience committee
-    * 2015-2017: Administrator of Digital Text Laboratory, Aarhus University
-    * 2015-2017: Head of Digital Arts Initiative, Aarhus University
-    * 2014-    : WP Member of Digital Research Infrastructure for the Arts and Humanities (DARIAH)
+
+* 2019-    : Director of Center for Humanities Computing Aarhus
+* 2017-    : Steering Group member in CodeRrfinery
+* 2017-2019: University of Southern Denmarks eScience Committee (@ Abacus 2.0)
+* 2016-2019: Advisory Board for the Simulating Religion Project
+* 2016-2017: AU Arts’ representative in AU eScience committee
+* 2015-2017: Administrator of Digital Text Laboratory, Aarhus University
+* 2015-2017: Head of Digital Arts Initiative, Aarhus University
+* 2014-    : WP Member of Digital Research Infrastructure for the Arts and Humanities (DARIAH)
 
 Professional Development
 ======
