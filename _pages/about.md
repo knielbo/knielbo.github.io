@@ -9,6 +9,7 @@ redirect_from:
 ---
 I'm a researcher and infrastructure manager at Aarhus University Denmark. As a researcher, I use a computionational and data-driven approach to understand the _dynamics of sociocultural systems_. As an infrastructure manger, I strive to empower and accelerate humanities and social science research through _interactive computing_ and _collaborative development_. Throughout my academic career, I have participated in a range inter- and transdisciplinary research projects that have explored the _cultural information space_ aided by statistics, computer algorithms, and visualization.
 
+![nid beta]({{ site.url }}/images/fp_politiken_7_wbase.png)
 
 
 Current Projects
@@ -20,9 +21,9 @@ Mads Rosendahl Thomsen and I have received funding from the [Velux Foundation](h
 
 With my colleague [Katrine F. Baunvig](https://pure.au.dk/portal/da/persons/katrine-froekjaer-baunvig(f1e19ea4-6952-423e-930a-2bd93623a9d4).html) I am working on a comparative study of *innovation*, *creativity* and *motivational drivers* in Danish textual cultural heritage, with a particular focus on N.F.S Grundtvig (1783-1872), H.C. Andersen (1805-1875) and S.A. Kierkegaard (1813-1855) (see, [*A Curious Case of Entropic Decay*](https://doi.org/10.1093/llc/fqy054)).
 
-[Center for Humanities Computing Aarhus](http://chcaa.io/#/) has joined the consortium behind [DeiC](https://www.deic.dk/)'s [Type 1 HPC Interactive system](https://www.deic.dk/en/supercomputing/national-hpc-facilities). Together with collegues from University of Southern Denmark's eScience Center and Aalborg University's CLAAUDIA, we work to provide researchers easy access to interactive computing in the [cloud](https://cloud.sdu.dk/app/login/selection).  
+[Center for Humanities Computing Aarhus](http://chcaa.io/#/) has joined the consortium behind [DeiC](https://www.deic.dk/)'s [Type 1 HPC Interactive system](https://www.deic.dk/en/supercomputing/national-hpc-facilities). Together with collegues from University of Southern Denmark's [SDU eScience Center](https://escience.sdu.dk/) and Aalborg University's [CLAAUDIA](https://www.claaudia.aau.dk/), we work to provide researchers easy access to interactive computing in the [cloud](https://cloud.sdu.dk/app/login/selection).  
 
-
+I manage [Nordic Digital Humanities Laboratory](https://centre-for-humanities-computing.github.io/Nordic-Digital-Humanities-Laboratory/) a collaboration around a shared software and application layer for modeling and analysis of cultural heritage data across the Nordics. NDHL is funded by the [Nordic e-Infrastructure Collaboration](https://neic.no/) (NeIC).
 
 Previous Projects
 ======
