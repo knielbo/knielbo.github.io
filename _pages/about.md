@@ -13,11 +13,15 @@ I'm a researcher and infrastructure manager at Aarhus University Denmark. As a r
 
 Current Projects
 ======
-Currently I am working on a comparative study of *innovation*, *creativity* and *motivational drivers* in Danish textual cultural heritage, with a particular focus on N.F.S Grundtvig (1783-1872), H.C. Andersen (1805-1875) and S.A. Kierkegaard (1813-1855) (see, [*A Curious Case of Entropic Decay*](https://doi.org/10.1093/llc/fqy054)).
 
-With my Dutch colleague Melvin Wevers, I work on a large-scale automated text analysis project about *disruptions* and *persistence* in Dutch newspapers topicality space. The project is a continuation of our previous project with Jianbo Gao *Tracking the Consumption Junction:Temporal Dependencies in Dutch Newspaper Articles and Advertisements* (still in review!).
+With my colleague [Katrine F. Baunvig](https://pure.au.dk/portal/da/persons/katrine-froekjaer-baunvig(f1e19ea4-6952-423e-930a-2bd93623a9d4).html) I am working on a comparative study of *innovation*, *creativity* and *motivational drivers* in Danish textual cultural heritage, with a particular focus on N.F.S Grundtvig (1783-1872), H.C. Andersen (1805-1875) and S.A. Kierkegaard (1813-1855) (see, [*A Curious Case of Entropic Decay*](https://doi.org/10.1093/llc/fqy054)).
 
-Jianbo Gao, Mads Rosendahl Thomsen and me have recently started a project on the fractal properties of narratives, which has led us to propose a set of theoretical propositions on the necessary properties of optimal narrative structure (*Dynamic evolution of sentiments in Never Let Me Go: Insights from multifractal theory and its implications for literary analysis*,  currently in review).
+Previous Projects
+======
+
+With my colleagues [Melvin Wevers](http://www.melvinwevers.nl/) and Jianbo Gao, I have published a study on a large-scale automated text analysis project about *long-range dependence* (LRD) and the effects of advertisments  in Dutch newspapers: [Tracking the Consumption Junction:Temporal Dependencies in Dutch Newspaper Articles and Advertisements](http://www.digitalhumanities.org/dhq/vol/14/2/000445/000445.html).
+
+Jianbo Gao, Mads Rosendahl Thomsen and I have published a study on the fractal properties of narratives, which led us to propose a set of theoretical propositions on the necessary properties of optimal narrative structure: [Dynamic evolution of sentiments in Never Let Me Go: Insights from multifractal theory and its implications for literary analysis](https://hal.archives-ouvertes.fr/hal-02143896/document)
 
 
 Centre for Humanities Computing Aarhus
