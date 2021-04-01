@@ -17,12 +17,12 @@ Education
 
 Work experience
 ======
-* University
+__Research__  
     * 2019-    : Associate Professor of Humanities Computing, Aarhus University
     * 2017-2019: Associate Professor of Humanities Computing, Dept. of History, University of Southern Denmark
     * 2015-2017: Associate Professor, School of Culture & Society, Aarhus University
     * 2012-2015: Postdoc, joint position between IMC, Aarhus University, and CERC, University of British Columbia
-* Administration
+__Administration__
     * 2019-    : Director of Center for Humanities Computing Aarhus
     * 2017-    : Steering Group member in CodeRrfinery
     * 2017-2019: University of Southern Denmarks eScience Committee (@ Abacus 2.0)
