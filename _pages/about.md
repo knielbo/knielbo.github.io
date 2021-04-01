@@ -9,13 +9,15 @@ redirect_from:
 ---
 I'm a researcher and infrastructure manager at Aarhus University Denmark. As a researcher, I use a computionational and data-driven approach to understand the _dynamics of sociocultural systems_. As an infrastructure manger, I strive to empower and accelerate humanities and social science research through _interactive computing_ and _collaborative development_. Throughout my academic career, I have participated in a range inter- and transdisciplinary research projects that have explored the _cultural information space_ aided by statistics, computer algorithms, and visualization.
 
-![nid beta]({{ site.url }}/images/fp_politiken_7_wbase.png)
-
 
 Current Projects
 ======
 
 Together with my colleagues [Rebekah Baglini](https://rbkh.net/), [Peter B. Vahlstrup](https://pure.au.dk/portal/da/persons/peter-bjerregaard-vahlstrup(63997fd6-cf3c-4d7e-895a-7cfbd145f22e).html) and PhD student [Kenneth Enevoldsen](https://pure.au.dk/portal/da/persons/kenneth-christian-enevoldsen(c52b8fd4-bd44-4c8e-997b-648715fd0d0d).html), I am currently developing an algorithm for change detection in written media content. The project is part of the [HOPE](https://hope-project.dk/#/) How Democracies Cope with COVID19 project that is funded by the [Carlsberg Foundation](https://www.carlsbergfondet.dk/en/News/News-from-the-Foundation/News/25-million-DKK-to-social-behavioral-research-during-the-Covid19-epidemic). (see, [News Information Decoupling](https://arxiv.org/pdf/2101.02956.pdf) and [When No News Is Bad News](https://arxiv.org/pdf/2102.06505.pdf).
+
+| ![nid beta]({{ site.url }}/images/fp_politiken_7_wbase.png) |
+|:--:| 
+| *By using the linear relationship between how novel a news story is and how persistent it is, we have demonstrated that our algortihm can predict the COVID-19 phase 1 lockdown as early as the first confirmed case on February 27, 2020.* |
 
 Mads Rosendahl Thomsen and I have received funding from the [Velux Foundation](https://veluxfoundations.dk/da/content/kaerlighed-og-vrede-syv-humanvidenskabelige-projekter-saetter-hverdagen-i-perspektiv) to develop Fabula-NET, a decision support system for quality assessment of fiction that combines automated narrative analysis with with market intelligence and demographic factors. With Fabula-NET, we promote transparent and bias awareness algorithmic decision making.
 
