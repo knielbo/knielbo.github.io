@@ -18,11 +18,14 @@ Education
 Work experience
 ======
 * University
-    * 2017-: Associate Professor of Humanities Computing, Dept. of History, University of Southern Denmark
-    * 2015-17: Associate Professor, School of Culture & Society, Aarhus University
-    * 2012-15: Postdoc, joint position between IMC, Aarhus University, and CERC, University of British Columbia
+    * 2019-    : Associate Professor of Humanities Computing, Aarhus University
+    * 2017-2019: Associate Professor of Humanities Computing, Dept. of History, University of Southern Denmark
+    * 2015-2017: Associate Professor, School of Culture & Society, Aarhus University
+    * 2012-2015: Postdoc, joint position between IMC, Aarhus University, and CERC, University of British Columbia
 * Administration
-    * 2017-    : University of Southern Denmarks eScience Committee (@ Abacus 2.0)
+    * 2019-    : Director of Center for Humanities Computing Aarhus
+    * 2017-    : Steering Group member in CodeRrfinery
+    * 2017-2019: University of Southern Denmarks eScience Committee (@ Abacus 2.0)
     * 2016-2019: Advisory Board for the Simulating Religion Project
     * 2016-2017: AU Arts’ representative in AU eScience committee
     * 2015-2017: Administrator of Digital Text Laboratory, Aarhus University
@@ -31,6 +34,7 @@ Work experience
 
 Professional Development
 ======
+* 2020: FAIR Data Steward, Nordic e-Infrastructure Collaboration.
 * 2017: Instructor in Software Carpentry and Data Carpentry
 * 2016: Fellow at Institute of Pure and Applied Mathematics, University of California Los Angeles, USA
 * 2015: Visiting researcher at University of British Columbia, Asian Centre, Canada
@@ -50,15 +54,21 @@ Professional Development
 Skills
 ======
 * Markup (LaTeX, Markdown)
-* Script (MATLAB, Python, R, basic Shell Scripting)
-* Tools (Atom, Git, RapidMiner)
+* Script (Bash, MATLAB, Python, R, Scala, SQL)
+* Tools (Club-house, Git, Jira, Jupyter, RapidMiner))
 
 Grants and Awards
 ======
+* 2020-22: Fabula-NET, Velux Foundation, DKK 5,343,544 (co-applicant).
+* 2020-22: How Democracies Cope with COVID19, Carlsberg Foundation, DKK 25,000,000 (funded by).
+* 2020-21: $\alpha$Cloud, IT-Vest, DKK 220,000 (co-applicant).
+* 2020-21: Mistrust of Scientific Expertise, AUFF Nova, DKK 570.000 (co-applicant).
+* 2019-21: Nordic Digital Humanities Laboratory, DKK 250,000 (main applicant).
+* 2018-20: Network for Digital Literary Research, DKK 1,186,560 (co-applicant).
 * 2017: Danish e-Infrastructure Cooperation: Semantic Disruptions in Public Discourse, DKK 100,000, (main applicant).
 * 2017: Danish Agency for Science and Higher Education: Calculus of Culture, DKK 275,000, (main applicant).
 * 2016-19: Danish Agency for Science and Higher Education: Unearned Wealth - A Literary History of Inheritance (1600-2015), 5,870,000 DKK, (co-applicant).
-* 2016: Institute of Pure and Applied Mathematics, Fellowship, University of California, Los Angeles.
+* 2016-18: Institute of Pure and Applied Mathematics, Fellowship, University of California, Los Angeles.
 * 2015: Aarhus University Strategical Funding for Education, DKK 30,000, (main applicant).
 * 2015: Aarhus University Research Foundation (AUFF): Digital Text Laboratory, DKK 60,000, (main applicant).
 * 2015-17: The Andrew Mellon Foundation: Mapping Literary Influences, DKK 270,000, (co-applicant).
