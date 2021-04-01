@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Hi, I'M KRISTOFFER L. NIELBO"
+title: "Hi, I'M KRISTOFFER"
 excerpt: "About me"
 author_profile: true
 redirect_from:
