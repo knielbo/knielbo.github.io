@@ -13,13 +13,13 @@ I'm a researcher and infrastructure manager at Aarhus University Denmark. As a r
 Current Projects
 ======
 
-Together with my colleagues [Rebekah Baglini](https://rbkh.net/), [Peter B. Vahlstrup](https://pure.au.dk/portal/da/persons/peter-bjerregaard-vahlstrup(63997fd6-cf3c-4d7e-895a-7cfbd145f22e).html) and PhD student [Kenneth Enevoldsen](https://pure.au.dk/portal/da/persons/kenneth-christian-enevoldsen(c52b8fd4-bd44-4c8e-997b-648715fd0d0d).html), I am currently developing an algorithm for change detection in written media content. The project is part of the [HOPE](https://hope-project.dk/#/) How Democracies Cope with COVID19 project that is funded by the [Carlsberg Foundation](https://www.carlsbergfondet.dk/en/News/News-from-the-Foundation/News/25-million-DKK-to-social-behavioral-research-during-the-Covid19-epidemic). (see, [News Information Decoupling](https://arxiv.org/pdf/2101.02956.pdf) and [When No News Is Bad News](https://arxiv.org/pdf/2102.06505.pdf).
+Together with my colleagues [Rebekah Baglini](https://rbkh.net/), [Peter B. Vahlstrup](https://pure.au.dk/portal/da/persons/peter-bjerregaard-vahlstrup(63997fd6-cf3c-4d7e-895a-7cfbd145f22e).html) and PhD student [Kenneth Enevoldsen](https://pure.au.dk/portal/da/persons/kenneth-christian-enevoldsen(c52b8fd4-bd44-4c8e-997b-648715fd0d0d).html), I am currently developing an algorithm for change detection in written media content. The project is part of the [HOPE](https://hope-project.dk/#/) How Democracies Cope with COVID19 project that is funded by the [Carlsberg Foundation](https://www.carlsbergfondet.dk/en/News/News-from-the-Foundation/News/25-million-DKK-to-social-behavioral-research-during-the-Covid19-epidemic). (see, [News Information Decoupling](https://arxiv.org/pdf/2101.02956.pdf) and [When No News Is Bad News](https://arxiv.org/pdf/2102.06505.pdf)).
 
 | ![nid beta]({{ site.url }}/images/fp_politiken_7_wbase.png) |
 |:--:| 
 | *By using the linear relationship between how novel a news story is and how persistent it is, we have demonstrated that our algortihm can predict the COVID-19 phase 1 lockdown as early as the first confirmed case on February 27, 2020.* |
 
-[Mads Rosendahl Thomsen](https://pure.au.dk/portal/en/persons/mads-rosendahl-thomsen(53e608fe-8aef-4f91-a1d5-26cd0d84449e).html) and I have received funding from the [Velux Foundation](https://veluxfoundations.dk/da/content/kaerlighed-og-vrede-syv-humanvidenskabelige-projekter-saetter-hverdagen-i-perspektiv) to develop Fabula-NET, a decision support system for quality assessment of fiction that combines automated narrative analysis with with market intelligence and demographic factors. With Fabula-NET, we promote transparent and bias awareness algorithmic decision making.
+[Mads Rosendahl Thomsen](https://pure.au.dk/portal/en/persons/mads-rosendahl-thomsen(53e608fe-8aef-4f91-a1d5-26cd0d84449e).html) and I have received funding from the [Velux Foundation](https://veluxfoundations.dk/da/content/kaerlighed-og-vrede-syv-humanvidenskabelige-projekter-saetter-hverdagen-i-perspektiv) to develop Fabula-NET, a decision support system for quality assessment of fiction that combines automated narrative analysis with with market intelligence and demographic factors. With Fabula-NET, we promote transparency and bias awareness in algorithmic decision making.
 
 | ![fabula minority]({{ site.url }}/images/fBm_trends.png) |
 |:--:| 
@@ -34,7 +34,7 @@ With my colleague [Katrine F. Baunvig](https://pure.au.dk/portal/da/persons/katr
 
 [Center for Humanities Computing Aarhus](http://chcaa.io/#/) has joined the consortium behind [DeiC](https://www.deic.dk/)'s [Type 1 HPC Interactive system](https://www.deic.dk/en/supercomputing/national-hpc-facilities). Together with collegues from University of Southern Denmark's [SDU eScience Center](https://escience.sdu.dk/) and Aalborg University's [CLAAUDIA](https://www.claaudia.aau.dk/), we work to provide researchers easy access to interactive computing in the [cloud](https://cloud.sdu.dk/app/login/selection).  
 
-I manage [Nordic Digital Humanities Laboratory](https://centre-for-humanities-computing.github.io/Nordic-Digital-Humanities-Laboratory/) a collaboration around a shared software and application layer for modeling and analysis of cultural heritage data across the Nordics. NDHL is funded by the [Nordic e-Infrastructure Collaboration](https://neic.no/) (NeIC).
+I manage [Nordic Digital Humanities Laboratory](https://centre-for-humanities-computing.github.io/Nordic-Digital-Humanities-Laboratory/) a collaboration about a shared software and application layer for modeling and analysis of cultural heritage data across the Nordics. NDHL is funded by the [Nordic e-Infrastructure Collaboration](https://neic.no/) (NeIC).
 
 Previous Projects
 ======
