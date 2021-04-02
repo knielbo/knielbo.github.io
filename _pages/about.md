@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I'm a researcher and infrastructure manager at Aarhus University Denmark. As a researcher, I use a computionational and data-driven approach to understand the _dynamics of sociocultural systems_. As an infrastructure manger, I strive to empower and accelerate humanities and social science research through _interactive computing_ and _collaborative development_. Throughout my academic career, I have participated in a range inter- and transdisciplinary research projects that have explored the _cultural information space_ aided by statistics, computer algorithms, and visualization.
+I'm a researcher and infrastructure manager at Aarhus University Denmark. As a researcher, I use computionational and data-driven approaches to understand the _dynamics of sociocultural systems_. As an infrastructure manger, I strive to empower and accelerate humanities and social science research through _interactive computing_ and _collaborative development_. Throughout my academic career, I have participated in a range inter- and transdisciplinary research projects that have explored the _cultural information space_ aided by statistics, computer algorithms, and visualization.
 
 
 Current Projects
