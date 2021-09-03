@@ -1,7 +1,7 @@
 ---
 title: "Python Bootcamp"
 collection: teaching
-type: "graduate course"
+type: "Graduate course"
 permalink: /teaching/2017-autumn-pmbootcamp
 venue: "Aarhus University"
 date: 2021-09-01
