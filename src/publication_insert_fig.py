@@ -23,5 +23,5 @@ class FigureInserter:
             file.write(str(soup))
 
 if __name__ == "__main__":
-    inserter = FigureInserter('../publications.html', 'figs/publication_trends.png')
+    inserter = FigureInserter('../publications.html', 'figs/yearly_publication_bigraphs.png')
     inserter.insert_figure()
