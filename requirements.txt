@@ -1,0 +1,7 @@
+beautifulsoup4
+networkx
+matplotlib
+pandas
+seaborn
+numpy
+louvain
