@@ -57,3 +57,49 @@ The updated `publications.html` will contain your latest publications and visual
 
 - Python 3.x
 - See `requirements.txt` for detailed dependencies.
+
+## Adding Collaborators to a Private Repository
+
+If this repository is private and you need to grant access to collaborators, follow these steps:
+
+### Via GitHub Web Interface
+
+1. **Navigate to the repository** on GitHub (github.com/knielbo/knielbo.github.io)
+2. Click on **Settings** tab (requires admin/owner access)
+3. In the left sidebar, click **Collaborators** (or **Collaborators and teams** for organization repositories)
+4. Click the **Add people** button
+5. Enter the GitHub username or email address of the person you want to add
+6. Select the appropriate permission level:
+   - **Read**: View and clone the repository
+   - **Triage**: Read access plus manage issues and pull requests
+   - **Write**: Read and clone, plus push to the repository
+   - **Maintain**: Write access plus manage settings (without access to sensitive actions)
+   - **Admin**: Full access including repository deletion
+7. Click **Add [username] to this repository**
+8. The collaborator will receive an invitation email and must accept it to gain access
+
+### Via GitHub CLI (gh)
+
+```bash
+# Add a collaborator with write permission
+gh api repos/knielbo/knielbo.github.io/collaborators/USERNAME -X PUT -f permission=push
+
+# Add a collaborator with read permission
+gh api repos/knielbo/knielbo.github.io/collaborators/USERNAME -X PUT -f permission=pull
+
+# Add a collaborator with admin permission
+gh api repos/knielbo/knielbo.github.io/collaborators/USERNAME -X PUT -f permission=admin
+```
+
+### Permission Levels Explained
+
+- **Read (pull)**: Best for contributors who need to view or discuss the project
+- **Write (push)**: Best for contributors who actively work on the project
+- **Admin**: Best for project managers who need full control
+
+### Notes
+
+- Only repository owners and admins can add collaborators
+- Collaborators must have a GitHub account
+- For organization repositories, you may need to be an organization owner or have appropriate team permissions
+- Invited collaborators can accept the invitation from their email or from the repository page
