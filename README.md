@@ -1,59 +1,45 @@
+# Kristoffer Nielbo’s academic website
 
-# Kristoffer Nielbo's Personal Website
+This repository holds the static HTML served by GitHub Pages for Kristoffer Nielbo’s [academic website](https://knielbo.github.io/).
 
-A minimal personal website hosted via GitHub Pages. It contains basic information and a dynamically generated chronological list of publications enriched with visualizations.
+- **Homepage.** Edit [index.html](index.html) directly to update the biography, current affiliations, projects, selected publications, advising, or contact information. The selected publications are handpicked. The contact email is written out in words.
+- **Publications.** The [publications page](https://knielbo.github.io/publications.html) lists research outputs by year, newest first. A banner shows yearly author–venue networks. The expandable *Research areas over time* map shows one dot per output, grouped by year and primary research area. Select a group to see its titles.
 
-## Repository Structure
+The Aarhus University Pure export dated **4 November 2026** contains 193 outputs spanning 2011–2026, classified into eight research areas.
 
-```
-.
-├── README.md                          # Documentation of the repository
-├── figs
-│   ├── publication_trends.png         # Trends and analytics of publications
-│   └── yearly_publication_bigraphs.png # Annual bipartite author-journal graphs
-├── files
-│   └── pure_research_outputs.html     # Source HTML publication data
-├── index.html                         # Homepage
-├── publications.html                  # Chronological publication list (generated)
-├── publications_template.html         # Template for the publication list
-├── requirements.txt                   # Python package dependencies
-└── src
-    ├── publication_bigraphs.py        # Generates yearly bipartite graphs (authors & journals)
-    ├── publication_insert_fig.py      # Inserts header figures into publications.html
-    ├── publication_trend.py           # Creates publication trends and analytics plots
-    ├── pure_to_web.py                 # Generates publications.html from HTML source
-    └── update_publications.sh         # Bash script to automate publications update
-```
+## Update the publications
 
-## Installation
+1. Export the full research output list from Pure as HTML in APA format. Replace [files/pure_research_outputs.html](files/pure_research_outputs.html) with the new export.
+2. Run the update from the repository root using the commands below. The first three commands set up a Python environment for the standard publication scripts. On later runs, activate the same environment and run the last command again.
 
-Clone the repository and install dependencies:
+   ```sh
+   python3 -m venv .venv
+   . .venv/bin/activate
+   python -m pip install beautifulsoup4 matplotlib networkx seaborn
+   (cd src && MPLBACKEND=Agg bash update_publications.sh)
+   ```
 
-```bash
-git clone <repo-url>
-cd knielbo.github.io
-pip install -r requirements.txt
-```
+3. Review any outputs reported as **Awaiting classification**. In [files/research_areas.json](files/research_areas.json), assign each new output a unique numeric `id` and a `domain` from the file’s list of areas. Copy its `year` and `title` from the export and include its `url` if available. Keep existing IDs when correcting records. If two records share all three matching fields, include each full citation in its `citation` field. Rerun the update after editing assignments.
 
-## Usage
+The [update script](src/update_publications.sh) runs three steps from `src/`. The figure scripts resolve paths relative to that directory.
 
-Run the `update_publications.sh` script to regenerate your publications and visualizations:
+| Step | What it produces |
+| --- | --- |
+| [pure_to_web.py](src/pure_to_web.py) | Builds [publications.html](publications.html) from the Pure export, area assignments, and [HTML template](publications_template.html). It embeds both the citations and the data for the dot map. |
+| [publication_bigraphs.py](src/publication_bigraphs.py) | Draws the yearly author–venue networks from the HTML export and saves the [banner image](figs/yearly_publication_bigraphs.png). |
+| [publication_insert_fig.py](src/publication_insert_fig.py) | Inserts the banner above the heading in the generated publications page. |
 
-```bash
-cd src
-bash update_publications.sh
-```
+For layout changes, edit the template and rebuild. For the map’s appearance or interactions, edit its [CSS](assets/research-areas.css) or [JavaScript](assets/research-areas.js).
 
-This script executes the following processes in order:
+## Preview and publish
 
-- Parse and update the publication list (`pure_to_web.py`)
-- Generate yearly bipartite author-journal graphs (`publication_bigraphs.py`)
-- Insert header figures into the HTML file (`publication_insert_fig.py`)
-- Update publication trend analytics (`publication_trend.py`)
+From the repository root, run `python3 -m http.server 8000 --bind 127.0.0.1` and open the [local homepage](http://127.0.0.1:8000/) or [local publications page](http://127.0.0.1:8000/publications.html). After a publication update, check the newest citations, open the dot map, and select a group to verify its titles.
 
-The updated `publications.html` will contain your latest publications and visualizations. The expandable “Research areas over time” map uses the primary area assigned to each output in `files/research_areas.json`. When replacing the Pure export, review any new outputs marked “Awaiting classification,” add their assignments there, and rerun the update.
+GitHub Pages serves the repository root on `main`. Commit the changed source files together with the regenerated `publications.html` and banner when they change, then push to `main` to publish.
 
-## Requirements
+## Optional figures
 
-- Python 3.x
-- See `requirements.txt` for detailed dependencies.
+Two standalone scripts produce additional figures. Run them from `src/` if needed.
+
+- [publication_bigraphs_robust.py](src/publication_bigraphs_robust.py) uses the [BibTeX export](files/pure_research_outputs.bib) and `bibtexparser` 1.x to generate [an alternative network figure](figs/yearly_publication_bigraphs_robust.png).
+- [publication_trend.py](src/publication_trend.py) uses the HTML export to generate [publication trend and coauthorship plots](figs/publication_trends.png). It also imports `scikit-learn` and `python-louvain` (as `community`).
