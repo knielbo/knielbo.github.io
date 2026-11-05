@@ -1,0 +1,76 @@
+:root {
+  color-scheme: light;
+  --ink: #252921;
+  --green: #325449;
+  --muted: #535a50;
+  --rule: #c6c9bc;
+  background: #fbfaf6;
+  color: var(--ink);
+}
+
+body {
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: clamp(1.25rem, 4vw, 3rem);
+  font-family: Georgia, "Times New Roman", serif;
+  line-height: 1.5;
+}
+
+a { color: var(--green); }
+a:hover { color: var(--ink); }
+a:focus-visible { outline: 2px solid var(--green); outline-offset: 3px; }
+
+.masthead {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(185px, 28%);
+  align-items: end;
+  gap: clamp(1rem, 3.5vw, 2.875rem);
+  border-bottom: 1px solid var(--rule);
+  padding-bottom: clamp(18px, 3vw, 30px);
+}
+
+.masthead h1 {
+  margin: 0 0 .16em;
+  font: 400 clamp(2.4375rem, 7vw, 4.5rem)/1.02 "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+  letter-spacing: -.045em;
+}
+
+.byline {
+  margin: 0;
+  color: var(--muted);
+  font-style: italic;
+  line-height: 1.4;
+}
+
+.research-mark { display: block; text-decoration: none; }
+.research-mark img { display: block; width: 100%; height: auto; }
+.research-mark:focus-visible { outline-offset: 5px; }
+
+.mark-caption {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1px .5rem;
+  margin-top: 4px;
+  font-size: .875rem;
+  line-height: 1.35;
+}
+
+.mark-title { text-decoration: underline; text-underline-offset: 3px; }
+.mark-years { font-size: .75rem; color: var(--muted); font-variant-numeric: tabular-nums; }
+
+.intro {
+  max-width: 68ch;
+  margin: clamp(1rem, 2.6vw, 1.5625rem) 0 0;
+  font-size: 1.125rem;
+  line-height: 1.55;
+}
+
+hr { border: 0; border-top: 1px solid var(--rule); }
+
+@media (max-width: 575px) {
+  .masthead { grid-template-columns: 1fr; gap: 17px; }
+  .research-mark { width: min(14rem, 100%); }
+  .intro { font-size: 1rem; }
+}

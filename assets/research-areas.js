@@ -170,5 +170,10 @@
   disclosure.addEventListener("toggle", draw);
   if ("ResizeObserver" in window) new ResizeObserver(draw).observe(host);
   else window.addEventListener("resize", draw);
+  function openLinkedChart() {
+    if (window.location.hash === "#" + disclosure.id) disclosure.open = true;
+  }
+  window.addEventListener("hashchange", openLinkedChart);
+  openLinkedChart();
   draw();
 })();
