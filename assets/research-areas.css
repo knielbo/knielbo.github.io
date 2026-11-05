@@ -1,0 +1,175 @@
+#research-areas {
+  --dot-ink: #325449;
+  --rule: #dededb;
+}
+
+#research-areas summary,
+#research-areas button {
+  cursor: pointer;
+}
+
+#research-areas > summary {
+  display: list-item;
+  width: fit-content;
+  max-width: 100%;
+}
+
+#research-areas > summary > span {
+  color: #0000ee;
+  text-decoration: underline;
+}
+
+#research-areas > figure {
+  display: grid;
+  gap: 1rem;
+  min-width: 0;
+  max-width: 66rem;
+  margin: 1em 0;
+  color: #151515;
+}
+
+#research-areas figure p,
+#research-areas .titles h3 {
+  margin: 0;
+}
+
+#research-areas .area-small {
+  font-size: 0.875rem;
+}
+
+#research-areas .area-muted {
+  color: #555;
+}
+
+#research-areas .area-num {
+  font-variant-numeric: tabular-nums;
+}
+
+#research-areas .dot-key {
+  display: flex;
+  align-items: baseline;
+  gap: 0.55em;
+}
+
+#research-areas .dot-key span {
+  align-self: center;
+  flex: none;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--dot-ink);
+}
+
+#research-areas .year-blocks {
+  display: grid;
+  gap: 1rem;
+  min-width: 0;
+}
+
+#research-areas table {
+  border-collapse: collapse;
+  table-layout: fixed;
+  width: 100%;
+}
+
+#research-areas th,
+#research-areas td {
+  padding: 0;
+  text-align: center;
+  vertical-align: middle;
+}
+
+#research-areas th {
+  font-weight: normal;
+  overflow-wrap: anywhere;
+}
+
+#research-areas thead th {
+  padding-bottom: 0.45em;
+  color: #555;
+  border-bottom: 1px solid var(--rule);
+}
+
+#research-areas th:first-child {
+  text-align: left;
+}
+
+#research-areas tbody th {
+  padding: 0.4em 0.55em 0.4em 0;
+}
+
+#research-areas .year-cell {
+  background: linear-gradient(var(--rule), var(--rule)) no-repeat center / 100% 1px;
+}
+
+#research-areas .dots {
+  display: grid;
+  place-items: center;
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 35px;
+  padding: 4px 0;
+  background: transparent;
+  border: 0;
+  border-radius: 3px;
+  color: var(--dot-ink);
+}
+
+#research-areas .dots svg {
+  display: block;
+  fill: currentColor;
+}
+
+#research-areas .dots:hover,
+#research-areas .dots[aria-pressed="true"] {
+  background: #e9eeec;
+}
+
+#research-areas .dots[aria-pressed="true"] {
+  box-shadow: inset 0 0 0 1px var(--dot-ink);
+}
+
+#research-areas .dots:focus-visible {
+  outline: 2px solid #174f97;
+  outline-offset: -2px;
+}
+
+#research-areas .titles {
+  margin-top: 0.5em;
+  padding: 0.65em 0;
+  border-top: 1px solid var(--rule);
+  text-align: left;
+  overflow-wrap: anywhere;
+}
+
+#research-areas .titles h3 {
+  font-size: 1rem;
+}
+
+#research-areas .titles ul {
+  margin: 0.4em 0 0;
+  padding-inline-start: 1.35em;
+}
+
+#research-areas .titles li + li {
+  margin-top: 0.3em;
+}
+
+#research-areas .titles summary {
+  margin-top: 0.45em;
+}
+
+#research-areas .area-note {
+  border-top: 1px solid var(--rule);
+  padding-top: 0.55em;
+}
+
+#research-areas .area-note p {
+  margin-top: 0.35em;
+}
+
+@media (pointer: coarse) {
+  #research-areas .dots {
+    min-height: 44px;
+  }
+}

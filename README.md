@@ -51,7 +51,7 @@ This script executes the following processes in order:
 - Insert header figures into the HTML file (`publication_insert_fig.py`)
 - Update publication trend analytics (`publication_trend.py`)
 
-The updated `publications.html` will contain your latest publications and visualizations.
+The updated `publications.html` will contain your latest publications and visualizations. The expandable “Research areas over time” map uses the primary area assigned to each output in `files/research_areas.json`. When replacing the Pure export, review any new outputs marked “Awaiting classification,” add their assignments there, and rerun the update.
 
 ## Requirements
 
