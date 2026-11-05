@@ -4,7 +4,6 @@ import sys
 from collections import Counter, defaultdict
 from datetime import datetime
 from pathlib import Path
-from xml.etree import ElementTree as ET
 
 from bs4 import BeautifulSoup, NavigableString
 
@@ -98,61 +97,6 @@ def assign_research_areas(publications, area_file=AREA_FILE):
     return domains
 
 
-def research_year_range(years):
-    dated = sorted(year for year in years if year is not None)
-    return '–'.join(map(str, dict.fromkeys([dated[0], dated[-1]]))) if dated else ''
-
-
-def render_research_mark(publications_by_year, domains):
-    years = sorted(publications_by_year, key=lambda year: (year is None, year or 0))
-    counts = Counter((pub['domain'], year) for year, pubs in publications_by_year.items() for pub in pubs)
-    year_range = research_year_range(years)
-    svg = ET.Element('svg', {'xmlns': 'http://www.w3.org/2000/svg', 'fill': '#325449',
-                             'role': 'img', 'aria-labelledby': 'title description'})
-    ET.SubElement(svg, 'title', id='title').text = 'Research areas over time' + (f', {year_range}' if year_range else '')
-    description = ET.SubElement(svg, 'desc', id='description')
-    description.text = (f'{sum(counts.values())} research outputs. One dot per output, '
-                        'grouped by research area from top to bottom and year from left to right.')
-    if None in publications_by_year:
-        description.text += ' The final column contains undated outputs.'
-
-    # Each year gets one 16-unit column. Size each area row for its tallest stack.
-    top = 0
-    for domain, label in domains.items():
-        line_counts = [(counts[domain, year] + 4) // 5 for year in years]
-        height = 4 + 3 * max(1, max(line_counts, default=0))
-        area = ET.SubElement(svg, 'g', {'data-area': domain})
-        ET.SubElement(area, 'title').text = label
-        for column, (year, lines) in enumerate(zip(years, line_counts)):
-            count = counts[domain, year]
-            if not count:
-                continue
-            group = ET.SubElement(area, 'g', {'data-year': str(year) if year is not None else 'Undated'})
-            for i in range(count):
-                line, pos = divmod(i, 5)
-                in_line = min(5, count - 5 * line)
-                x = 8 + 16 * column + (pos - (in_line - 1) / 2) * 2.9
-                y = top + height / 2 + (line - (lines - 1) / 2) * 3
-                ET.SubElement(group, 'circle', cx=f'{x:.2f}', cy=f'{y:.2f}', r='1.12')
-        top += height
-    svg.set('viewBox', f'0 0 {16 * max(1, len(years))} {max(1, top)}')
-    ET.indent(svg, space='  ')
-    return ET.tostring(svg, encoding='unicode') + '\n'
-
-
-def update_homepage_mark(publications_by_year, domains, homepage, asset):
-    caption = research_year_range(publications_by_year) or ('Undated' if publications_by_year else '')
-    source = homepage.read_bytes()
-    # Edit just the year text to preserve hand-authored homepage markup and spacing.
-    result, matches = re.subn(rb'(<span class="mark-years">)[^<]*(</span>)',
-                              lambda m: m[1] + caption.encode('utf-8') + m[2], source)
-    if matches != 1:
-        raise ValueError(f'Expected one <span class="mark-years"> in {homepage}.')
-    asset.write_text(render_research_mark(publications_by_year, domains), encoding='utf-8')
-    if result != source:
-        homepage.write_bytes(result)
-
-
 class HTMLPopulator:
     def __init__(self, template_html, output_html, publications_by_year, domains, export_date=None):
         self.template_html = Path(template_html)
@@ -182,7 +126,8 @@ class HTMLPopulator:
 
         payload = json.dumps({'rows': rows, 'domains': self.domains}, ensure_ascii=False, separators=(',', ':'))
         chart.string = payload.replace('<', r'\u003c')  # Keep citation text inside the JSON script element.
-        year_range = research_year_range(self.publications_by_year)
+        years = [year for year in self.publications_by_year if year is not None]
+        year_range = '–'.join(str(year) for year in sorted({min(years), max(years)})) if years else ''
         through_date = (f' · through {self.export_date.day} {self.export_date:%B %Y}' if self.export_date else '')
         for marker, text in [('years', year_range), ('count', str(len(rows))), ('export', through_date)]:
             for tag in soup.select(f'[data-area-{marker}]'):
@@ -194,10 +139,8 @@ def main():
     parser = PublicationParser(ROOT / 'files' / 'pure_research_outputs.html')
     parser.parse_html()
     domains = assign_research_areas(parser.publications)
-    publications_by_year = parser.get_publications_by_year()
-    update_homepage_mark(publications_by_year, domains, ROOT / 'index.html', ROOT / 'assets' / 'research-mark.svg')
     populator = HTMLPopulator(ROOT / 'publications_template.html', ROOT / 'publications.html',
-                             publications_by_year, domains, parser.export_date)
+                             parser.get_publications_by_year(), domains, parser.export_date)
     populator.populate_publications()
 
 

@@ -53,8 +53,6 @@ This script executes the following processes in order:
 
 The updated `publications.html` will contain your latest publications and visualizations. The expandable “Research areas over time” map uses the primary area assigned to each output in `files/research_areas.json`. When replacing the Pure export, review any new outputs marked “Awaiting classification,” add their assignments there, and rerun the update.
 
-The same update regenerates the homepage’s miniature research map (`assets/research-mark.svg`) and its year range. Each dot represents one output from the export.
-
 ## Requirements
 
 - Python 3.x
