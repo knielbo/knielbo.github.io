@@ -7,6 +7,8 @@ This repository holds the static HTML served by GitHub Pages for Kristoffer Niel
 
 The Aarhus University Pure export dated **4 November 2026** contains 193 outputs spanning 2011–2026, classified into eight research areas.
 
+Typing `emergence` on the homepage reveals a small Game of Life beneath the name. Click the pattern to reseed it, use Pause/Play to control the animation, and press Escape or select Hide to close it. With reduced motion enabled, it starts paused. The implementation lives in [assets/emergence.js](assets/emergence.js) and [assets/emergence.css](assets/emergence.css).
+
 ## Update the publications
 
 1. Export the full research output list from Pure as HTML in APA format. Replace [files/pure_research_outputs.html](files/pure_research_outputs.html) with the new export.

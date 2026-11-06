@@ -1,0 +1,48 @@
+#emergence {
+  width: 288px;
+  max-width: 100%;
+  margin: 0 0 1em;
+}
+
+#emergence .emergence-grid {
+  display: block;
+  width: 100%;
+  padding: 0;
+  border: 0;
+  background: white;
+  cursor: pointer;
+}
+
+#emergence canvas {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+#emergence figcaption {
+  margin-top: .4em;
+  font-size: .85em;
+  font-style: italic;
+}
+
+#emergence .emergence-controls {
+  display: flex;
+  gap: .8em;
+  margin-top: .3em;
+}
+
+#emergence .emergence-controls button {
+  border: 0;
+  padding: .15em 0;
+  background: transparent;
+  color: #555;
+  font: inherit;
+  font-size: .75em;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#emergence button:focus-visible {
+  outline: 1px solid black;
+  outline-offset: 3px;
+}
