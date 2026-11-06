@@ -7,7 +7,17 @@ This repository holds the static HTML served by GitHub Pages for Kristoffer Niel
 
 The Aarhus University Pure export dated **4 November 2026** contains 193 outputs spanning 2011–2026, classified into eight research areas.
 
-Typing `emergence` on the homepage reveals a small Game of Life beneath the name. Click the pattern to reseed it, use Pause/Play to control the animation, and press Escape or select Hide to close it. With reduced motion enabled, it starts paused. The implementation lives in [assets/emergence.js](assets/emergence.js) and [assets/emergence.css](assets/emergence.css).
+## Hidden emergence mode
+
+With the homepage focused, type `emergence` on your keyboard to reveal a small, monochrome Game of Life beneath the name. The caption reads *“Simple rules. Complicated cultures.”*
+
+- Click the pattern to seed a new one. You can also focus it with Tab and press Enter or Space.
+- Select **Pause** or **Play** to control the animation.
+- Press **Escape** or select **Hide** to close it. Type `emergence` again to reopen it.
+
+The animation starts paused when the visitor prefers reduced motion, and stops running while the page or the pattern is hidden. The trigger ignores typing in editable fields and shortcuts using Ctrl, Command, or Alt.
+
+The implementation uses JavaScript and a canvas, with styling scoped to the hidden figure. Edit [assets/emergence.js](assets/emergence.js) for the trigger and simulation, or [assets/emergence.css](assets/emergence.css) for its appearance.
 
 ## Update the publications
 
