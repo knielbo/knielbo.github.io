@@ -7,6 +7,12 @@ This repository holds the static HTML served by GitHub Pages for Kristoffer Niel
 
 The Aarhus University Pure export dated **4 November 2026** contains 193 outputs spanning 2011–2026, classified into eight research areas.
 
+## Research finder
+
+Select **Find research** on the homepage or publications page, or press **Cmd-K** on macOS / **Ctrl-K** elsewhere. Search by title, author, year, or research area. Use the arrow keys to move through results, **Enter** to open a result, and **Escape** to close the finder. **Copy citation** copies the full citation from the Pure export.
+
+The finder reads [assets/research-index.json](assets/research-index.json), generated from the same Pure export and research-area assignments as the publications page. The normal publication update below regenerates this index; do not edit it by hand.
+
 ## Hidden emergence mode
 
 With the homepage focused, type `emergence` on your keyboard to reveal a small, monochrome Game of Life beneath the name. The caption reads *“Simple rules. Complicated cultures.”*
@@ -37,7 +43,7 @@ The [update script](src/update_publications.sh) runs three steps from `src/`. Th
 
 | Step | What it produces |
 | --- | --- |
-| [pure_to_web.py](src/pure_to_web.py) | Builds [publications.html](publications.html) from the Pure export, area assignments, and [HTML template](publications_template.html). It embeds both the citations and the data for the dot map. |
+| [pure_to_web.py](src/pure_to_web.py) | Builds [publications.html](publications.html) from the Pure export, area assignments, and [HTML template](publications_template.html). It embeds both the citations and the data for the dot map, and writes [the research finder index](assets/research-index.json). |
 | [publication_bigraphs.py](src/publication_bigraphs.py) | Draws the yearly author–venue networks from the HTML export and saves the [banner image](figs/yearly_publication_bigraphs.png). |
 | [publication_insert_fig.py](src/publication_insert_fig.py) | Inserts the banner above the heading in the generated publications page. |
 
@@ -45,9 +51,9 @@ For layout changes, edit the template and rebuild. For the map’s appearance or
 
 ## Preview and publish
 
-From the repository root, run `python3 -m http.server 8000 --bind 127.0.0.1` and open the [local homepage](http://127.0.0.1:8000/) or [local publications page](http://127.0.0.1:8000/publications.html). After a publication update, check the newest citations, open the dot map, and select a group to verify its titles.
+From the repository root, run `python3 -m http.server 8000 --bind 127.0.0.1` and open the [local homepage](http://127.0.0.1:8000/) or [local publications page](http://127.0.0.1:8000/publications.html). After a publication update, check the newest citations, open the dot map, and select a group to verify its titles. Open the research finder on both pages and check a search and copied citation.
 
-GitHub Pages serves the repository root on `main`. Commit the changed source files together with the regenerated `publications.html` and banner when they change, then push to `main` to publish.
+GitHub Pages serves the repository root on `main`. Commit the changed source files together with the regenerated `publications.html`, research finder index, and banner when they change, then push to `main` to publish.
 
 ## Optional figures
 

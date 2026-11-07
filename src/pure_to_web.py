@@ -97,6 +97,19 @@ def assign_research_areas(publications, area_file=AREA_FILE):
     return domains
 
 
+def write_research_index(publications_by_year, domains,
+                         output_json=ROOT / 'assets' / 'research-index.json'):
+    rows = []
+    for year in sorted(publications_by_year, key=lambda value: value or 0, reverse=True):
+        for pub in publications_by_year[year]:
+            row = {field: pub[field] for field in ('id', 'title', 'year', 'domain')}
+            row.update(url=pub.get('url'), citation=pub['full_citation'])
+            rows.append(row)
+    payload = {'rows': rows, 'domains': domains}
+    Path(output_json).write_text(json.dumps(payload, ensure_ascii=False, indent=2) + '\n',
+                                 encoding='utf-8')
+
+
 class HTMLPopulator:
     def __init__(self, template_html, output_html, publications_by_year, domains, export_date=None):
         self.template_html = Path(template_html)
@@ -139,9 +152,11 @@ def main():
     parser = PublicationParser(ROOT / 'files' / 'pure_research_outputs.html')
     parser.parse_html()
     domains = assign_research_areas(parser.publications)
+    publications_by_year = parser.get_publications_by_year()
     populator = HTMLPopulator(ROOT / 'publications_template.html', ROOT / 'publications.html',
-                             parser.get_publications_by_year(), domains, parser.export_date)
+                             publications_by_year, domains, parser.export_date)
     populator.populate_publications()
+    write_research_index(publications_by_year, domains)
 
 
 if __name__ == '__main__':
