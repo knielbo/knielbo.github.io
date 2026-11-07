@@ -14,7 +14,7 @@
       </div>
       <label class="research-finder-label" for="research-finder-query">Title, author, year or research area</label>
       <input id="research-finder-query" type="search" autocomplete="off" spellcheck="false"
-        placeholder="e.g. text analysis, Sørensen, 2024" aria-describedby="research-finder-help" aria-controls="research-finder-results">
+        placeholder="e.g. text analysis, Eilam, 2024" aria-describedby="research-finder-help" aria-controls="research-finder-results">
       <p id="research-finder-status" role="status" aria-live="polite"></p>
     </header>
     <div class="research-finder-scroll">
