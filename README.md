@@ -13,6 +13,8 @@ Select **Find research** on the homepage or publications page, or press **Cmd-K*
 
 The finder reads [assets/research-index.json](assets/research-index.json), generated from the same Pure export and research-area assignments as the publications page. The normal publication update below regenerates this index; do not edit it by hand.
 
+When changing `assets/research-finder.js`, update its `?v=` revision in both `index.html` and `publications_template.html`, then rebuild the publications page. This makes browsers request the updated script instead of a cached copy.
+
 ## Hidden emergence mode
 
 With the homepage focused, type `emergence` on your keyboard to reveal a small, monochrome Game of Life beneath the name. The caption reads *“Simple rules. Complicated cultures.”*
