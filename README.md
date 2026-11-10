@@ -9,7 +9,7 @@ The Aarhus University Pure export dated **4 November 2026** contains 193 outputs
 
 ## Research finder
 
-Select **Find research** on the homepage or publications page, or press **Cmd-K** on macOS / **Ctrl-K** elsewhere. Search by title, author, year, or research area. Use the arrow keys to move through results, **Enter** to open a result, and **Escape** to close the finder. **Copy citation** copies the full citation from the Pure export.
+Select **Find research** on the homepage or publications page, or press **Ctrl+K** on Windows/Linux or **Command+K (⌘K)** on macOS. The link shows both shortcuts and exposes them to assistive technology; clicking or tapping the link also opens the finder. Search by title, author, year, or research area. Use the arrow keys to move through results, **Enter** to open a result, and **Escape** to close the finder. **Copy citation** copies the full citation from the Pure export.
 
 The finder reads [assets/research-index.json](assets/research-index.json), generated from the same Pure export and research-area assignments as the publications page. The normal publication update below regenerates this index; do not edit it by hand.
 

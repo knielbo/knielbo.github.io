@@ -171,9 +171,11 @@
   triggers.forEach(trigger => {
     trigger.setAttribute("aria-haspopup", "dialog");
     trigger.setAttribute("aria-controls", dialog.id);
+    trigger.setAttribute("aria-keyshortcuts", "Control+k Meta+k");
+    trigger.setAttribute("title", "Open Find research — Ctrl+K or Command+K");
     const shortcut = trigger.querySelector(".research-finder-shortcut");
     if (shortcut) {
-      shortcut.textContent = /Mac|iPhone|iPad/.test(navigator.platform) ? "⌘K" : "Ctrl K";
+      shortcut.textContent = "Ctrl+K / ⌘K";
       shortcut.setAttribute("aria-hidden", "true");
       shortcut.hidden = false;
     }
